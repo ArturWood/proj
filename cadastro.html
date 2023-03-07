@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+<title>
+Studio Design
+</title>
+<meta name="author" content="Artur"/>
+<meta http-equiv="Content-Type" content="text/html"/>
+
+<meta name="keywords" content="Fotografia, Serviços de Gravação, Eventos, Filmagens"/>
+
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<style>
+textarea {
+  resize: none;
+}
+</style>
+
+</head>
+
+<body bgcolor="#C0C0C0">
+
+<center>
+
+<h1> <label> Cadastro </label> </h1>
+<hr/>
+
+<form method="post" action="" name="cadastro" id="cadastro">
+
+<input type="hidden" id="to" value="email@provedor.com" />
+
+<input type="hidden" id="from" value=#email />
+
+<input type="hidden" id="assunto" value="Contato cliente via site" />
+
+<input type="hidden" id="corpo_email" value=#contato />
+
+<table>
+
+<tr>
+<td align="center"> <label> Nome: </label> </td>
+<td align="center"> <input type="text" name="nome" id="nome" />
+</tr>
+
+<tr>
+<td align="center"> <label> Sobrenome: </label> </td>
+<td align="center"> <input type="text" name="snome" id="snome" />
+</tr>
+
+<tr>
+<td align="center"> <label> E-mail: </label> </td>
+<td align="center"> <input type="text" name="email" id="email" />
+</tr>
+
+<tr>
+<td colspan="2" align="center"> <label> Sexo: </label>
+<label> <input type="radio" name="radio" id="femi" value="sexo"> F </input> </label>
+<label> <input type="radio" name="radio" id="masc" value="sexo"> M </input> </label> </td>
+</tr>
+
+<tr> <td colspan="2"></td> </tr>
+<tr> <td colspan="2"></td> </tr>
+
+<tr>
+<td colspan="2" align="center"> <label> Comprovante de Documentos: </label> </td>
+</tr>
+
+<tr>
+<td colspan="2" align="center"> <input type="file" name="docs" id="docs" /> </td>
+</tr>
+
+<tr> <td colspan="2"></td> </tr>
+<tr> <td colspan="2"></td> </tr>
+
+<tr>
+<td colspan="2" align="center"> <label> Contate-nos </label> </td>
+</tr>
+
+<tr>
+<td colspan="2" align="center"> <textarea name="contato" id="contato" placeholder="Descreva o motivo de seu contato ou serviço de interesse" cols="50" rows="10"></textarea> </td>
+</tr>
+
+</table>
+
+<input type="submit" name="enviar" id="enviar" value="Enviar" />
+
+<input type="reset" name="cancelar" id="cancelar" value="Cancelar" />
+
+</form>
+
+</center>
+
+</body>
+
+</html>
